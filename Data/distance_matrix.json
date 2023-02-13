@@ -1,0 +1,26 @@
+{
+  "destination_addresses": [
+    "Building No. 352, Way No.5003 Ghala Heights, Wilayat OM، Muscat 112, Oman"
+  ],
+  "origin_addresses": [
+    "Airport Heights,SEEB، H7PR+2JQ, Muscat, Oman"
+  ],
+  "rows": [
+    {
+      "elements": [
+        {
+          "distance": {
+            "text": "7.0 mi",
+            "value": 11285
+          },
+          "duration": {
+            "text": "11 mins",
+            "value": 664
+          },
+          "status": "OK"
+        }
+      ]
+    }
+  ],
+  "status": "OK"
+}

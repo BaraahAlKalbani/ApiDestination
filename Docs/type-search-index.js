@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"org.ApiDestination","l":"Distance"},{"p":"org.ApiDestination","l":"DistanceMatrix"},{"p":"org.ApiDestination","l":"Duration"},{"p":"org.ApiDestination","l":"Element"},{"p":"org.ApiDestination","l":"Main"},{"p":"org.ApiDestination","l":"Row"}];updateSearchResults();

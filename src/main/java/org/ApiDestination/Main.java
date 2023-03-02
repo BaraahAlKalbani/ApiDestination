@@ -21,14 +21,12 @@ public class Main {
      * @param args not used
      */
     public static void main(String[] args) {
-        // Create a Scanner object to read user input
-        Scanner userInput= new Scanner(System.in);
         System.out.print("Enter origin point in term (place name,country name): ");
-        // Read the origin input from the user
-        String origin = userInput.nextLine();
+        // Read the origin input from the application arguments
+        String origin = args[0];
         System.out.print("Enter destination point in term (place name,country name): ");
-        // Read the destination input from the user
-        String destination = userInput.nextLine();
+        // Read the destination input from the application arguments
+        String destination = args[1];
         try{
             // Build the URL for the Google Maps Distance Matrix API
             HttpUrl.Builder urlBuilder = HttpUrl.parse("https://maps.googleapis.com/maps/api/distancematrix/json").newBuilder();
